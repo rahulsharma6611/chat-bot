@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient-violet {
+  @apply bg-gradient-to-br from-violet-400 via-violet-500 to-violet-600;
+}
+
+.gradient-bg-violet {
+  @apply bg-gradient-to-br from-violet-50 via-violet-100 to-violet-200;
+}
+
+.text-gradient {
+  @apply inline-block text-transparent bg-gradient-to-r from-violet-500 via-violet-600 to-violet-700 bg-clip-text;
+}
+
+i {
+  @apply font-serif italic;
+}
+
+::-webkit-scrollbar {
+  @apply w-2;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-400 rounded-lg;
+}

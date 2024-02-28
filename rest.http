@@ -1,0 +1,11 @@
+POST http://localhost:3000/api/profile
+Content-Type: application/json
+
+{
+  "email": "estolagi@gmail.com",
+  "name": "Esto Triramdani N",
+  "image": "https://someurl.com/image.png"
+}
+
+###
+POST http://localhost:3000/api/restricted
